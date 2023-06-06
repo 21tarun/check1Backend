@@ -1,0 +1,29 @@
+{
+  "name": "check1backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "engines": {
+    "npm":">=8.0.0<9.0.0",
+    "node":">=16.0.0<17.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/21tarun/check1Backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/21tarun/check1Backend/issues"
+  },
+  "homepage": "https://github.com/21tarun/check1Backend#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mongoose": "^7.2.2"
+  }
+}
